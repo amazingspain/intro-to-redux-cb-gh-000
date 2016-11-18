@@ -13,9 +13,9 @@ We already know that React is a view-layer framework that provides a way for us 
 
 What do we mean by "state"? Think of state as the sum of all the information that describes your application at a given point in time. It could include data pulled from your back-end API and data describing the UI. For example, imagine a shopping list application. The state at a certain moment would include the shopping list items that the user has created, the knowledge of which shopping list items have been crossed out or checked off, the knowledge of which shopping list a user is current viewing, etc. 
 
-State will frequently change depending on a user's interaction with our app (for example a user adds a new shopping list item, or clicks a tab that hides the list they were viewing to display a different list) or updates or new data pulled from the backend API. What a user actually sees and interacts with at a given point in time is really the reflection of the state of the application at the point in time. 
+State will frequently change depending on a user's interaction with our app (for example a user adds a new shopping list item or clicks a tab that hides the list they were viewing to display a different list) or if new data is pulled from the backend API. What a user actually sees and interacts with at a given point in time is really the reflection of the state of the application at that point in time. 
 
-So, if an app is really the sum or reflection of its current state, and if that state must be capable of changing, then we as developers need to be able to teach our applications how to manage their own state. 
+So, if an app is really the sum or reflection of its current state, and if that state must be capable of changing, then we as developers need to be able to teach our applications how to manage their own state.
 
 The Redux framework allows us to do just that. Redux is a centralized state management system. This means that, instead of having individual components be responsible for their own state, we will maintain one application state which will be emitted or passed down to all of our components. 
 
